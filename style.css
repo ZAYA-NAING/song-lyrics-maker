@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@layer base {
+  @font-face {
+    font-family: 'BARONNEUE';
+    src: url('/assets/fonts/BARONNEUE-REGULAR.OTF');
+  }
+  @font-face {
+    font-family: 'BARONNEUE';
+    font-weight: bold;
+    src: url('/assets/fonts/BARONNEUE-BOLD.OTF');
+  }
+  @font-face {
+    font-family: 'BARONNEUE';
+    font-weight: bold;
+    font-style: italic;
+    src: url('/assets/fonts/BARONNEUE-BOLDITALIC.OTF');
+  }
+  @font-face {
+    font-family: 'A-OTF-MidashiGoPro-MB31';
+    src: url('/assets/fonts/A-OTF-MidashiGoPro-MB31.otf');
+  }
+  @font-face {
+    font-family: 'MyanmarSabae';
+    src: url('/assets/fonts/MyanmarSabae.ttf');
+  }
+  @font-face {
+    font-family: 'mmFont';
+    font-style: normal;
+    src: local(''), local('MUA Web Pro'), local('MUAWebPro'),
+      url('/assets/fonts/MUA-Web-Pro-Regular.woff') format('woff'),
+      url('/assets/fonts/MUA-Web-Pro-Regular.ttf') format('truetype');
+    unicode-range: U+1000-109F;
+    /*, U1000-109F, U200C-200D, U25CC; */
+    letter-spacing: normal;
+  }
+}
