@@ -284,6 +284,7 @@ const soyonaraLyrics = [
 
 export const sayonaraSongInfo = {
   title: 'SOYONARA',
+  mm_translated_title: 'နှုတ်ဆက်လမ်းခွဲ',
   singer: 'HITOMIN',
   duration: '3:30',
   lyrics: soyonaraLyrics,
