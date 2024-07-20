@@ -1,2 +1,9 @@
 node_modules
+/**
+ * This file is used to specify which files and directories should be ignored by Git.
+ * The ".vscode" directory is added to the ignore list, which means any files or directories
+ * inside it will not be tracked by Git.
+ */
 .vscode
+.DS_Store
+dist
